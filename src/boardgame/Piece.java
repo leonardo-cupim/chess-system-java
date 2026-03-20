@@ -1,15 +1,15 @@
 package boardgame;
 
-public class Pierce {
+public class Piece {
 
     protected Position position;
 
     private Board board;
 
-    public Pierce() {
+    public Piece() {
     }
 
-    public Pierce(Board board) {
+    public Piece(Board board) {
         this.board = board;
         this.position = null;
     }
